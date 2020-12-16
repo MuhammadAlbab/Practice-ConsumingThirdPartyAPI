@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box
-    
 }
 
 html, body{
@@ -12,17 +11,25 @@ html, body{
     text-align: center;   
 }
 
-.main-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+.header h1{
+    margin: 0;
+}
+
+.user-details{
+    margin: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgba(0, 0, 0, .2);
+}
+
+.user-name{
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 #btnUser{
     width: 150px;
     height: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     padding: 10px;
     background-color: cadetblue;
     color: white;
@@ -36,9 +43,4 @@ html, body{
 
 #btnUser:hover {
     opacity: 1
-}
-
-.user-details img{
-    width: 300px;
-    height: 300px;
 }
